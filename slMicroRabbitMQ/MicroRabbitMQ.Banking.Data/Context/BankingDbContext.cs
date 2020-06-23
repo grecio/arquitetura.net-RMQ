@@ -12,6 +12,11 @@ namespace MicroRabbitMQ.Banking.Data.Context
 
         }
 
+        public BankingDbContext()
+        {
+
+        }
+
         public DbSet<Account> Accounts { get; set; }
 
     }
