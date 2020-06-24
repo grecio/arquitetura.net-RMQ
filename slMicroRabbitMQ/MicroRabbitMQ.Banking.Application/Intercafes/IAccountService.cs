@@ -5,7 +5,7 @@ using MicroRabbitMQ.Banking.Domain.Models;
 
 namespace MicroRabbitMQ.Banking.Application.Intercafes
 {
-    public interface IAccountServices
+    public interface IAccountService
     {
         IEnumerable<Account> GetAccounts();
         void Transfer(AccountTransfer accountTransfer);

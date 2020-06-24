@@ -14,9 +14,9 @@ namespace MicroRabbitMQ.Banking.Api.Controllers
     [Route("[controller]")]
     public class BankingController : ControllerBase
     {
-        private readonly IAccountServices _accountServices;
+        private readonly IAccountService _accountServices;
 
-        public BankingController(IAccountServices accountServices)
+        public BankingController(IAccountService accountServices)
         {
             _accountServices = accountServices;
         }

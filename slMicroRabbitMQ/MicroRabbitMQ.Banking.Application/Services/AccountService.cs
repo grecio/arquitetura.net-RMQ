@@ -9,7 +9,7 @@ using MicroRabbitMQ.Domain.Core.Bus;
 
 namespace MicroRabbitMQ.Banking.Application.Services
 {
-    public class AccountService : IAccountServices
+    public class AccountService : IAccountService
     {
         private readonly IAccountRepository _accountRepository;
         private readonly IEventBus _bus;
