@@ -5,6 +5,10 @@
   </PropertyGroup>
 
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Custom' ">
+    <StartAction>Project</StartAction>
+    <ApplicationURL>http://localhost:63661</ApplicationURL>
+  </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\MicroRabbitMQ.Infra.IoC\MicroRabbitMQ.Infra.IoC.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
